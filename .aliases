@@ -15,9 +15,12 @@ up() {
   cd $str
 }
 
+#export PYTHONPATH=$PYTHONPATH:/Users/mike/Projects/snworks/ceo-c2/venv/lib/python3.7/site-packages
+
 # git status
 alias gs="git status"
 alias xo-setup="curl -s https://s3.amazonaws.com/static.getsnworks.com/local-dev/setup.sh | /bin/bash"
-alias ceo_c2="/Library/Frameworks/Python.framework/Versions/3.7/bin/python3 /Users/mike/Projects/snworks/ceo-c2/ceo_c2"
-alias exakat="docker run --rm -it -v /Users/mike/Tools/exakat/projects:/usr/src/exakat/projects exakat/exakat exakat"
+#alias ceo_c2="/usr/local/bin/python3 /Users/mike/Projects/snworks/ceo-c2/ceo_c2"
+#alias exakat="docker run --rm -it -v /Users/mike/Tools/exakat/projects:/usr/src/exakat/projects exakat/exakat exakat"
 alias serve="php -S localhost:8888 -t ."
+#alias endcov="curl -s -L covid19.trackercli.com/us"
